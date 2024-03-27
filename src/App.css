@@ -1,0 +1,145 @@
+/* Weather.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e3ded1;
+  /* Dark background */
+}
+
+.App {
+  text-align: center;
+  margin: auto;
+  /* Center horizontally */
+  margin-top: 190px;
+  /* From top */
+  margin-bottom: 50px;
+  /* From bottom */
+  width: 90%;
+  max-width: 700px;
+  border-radius: 35px;
+  height: 380px;
+  padding: 20px 15px;
+  background: #c1b594;
+  border: 2px solid #666666;
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.5);
+  /* Blurry black shadow */
+}
+
+
+.search-engine {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.search-engine input {
+  width: 70%;
+  height: 45px;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 2px 15px;
+  font-size: 16px;
+  outline: none;
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
+  background-color: #202020;
+  /* Dark background */
+  color: #fff;
+  /* White text */
+}
+
+.search-engine button {
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
+  border: none;
+  border-radius: 8px;
+  background-color: #000000;
+
+  color: #fff;
+  font-size: 20px;
+  outline: none;
+  cursor: pointer;
+  padding: 13px 15px;
+}
+
+.placeholder {
+  font-size: 64px;
+  color: #000000;
+}
+
+.city-name {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  color: #000000;
+  /* White text */
+}
+
+.loading {
+  font-size: 32px;
+  font-weight: bolder;
+  color: #000000;
+  /* White text */
+}
+
+.date {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  /* White text */
+}
+
+.temp {
+  font-size: 64px;
+  color: #fff;
+  /* White text */
+  font-weight: bold;
+  text-align: center;
+}
+
+.temp1 {
+  font-size: 30px;
+  color: #000000;
+  /* White text */
+  font-weight: bold;
+  text-align: center;
+}
+
+.description {
+  color: #000000;
+  /* White text */
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.weather-info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+  padding: 0px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.column {
+  display: flex;
+  align-items: center;
+  line-height: 1px;
+}
+
+/* Adding a border to the input */
+.search-engine input {
+  border: 2px solid #666666;
+}
+
+/* Darkening the background of the button */
+.search-engine button {
+  background-color: #222222;
+  /* Darker background */
+}
